@@ -35,7 +35,7 @@ tl1.to(".leaf3",{
 var tl2 = gsap.timeline({scrollTrigger:{
     trigger: ".three",
     start: "0% 95%",
-    end: "50% 60%",
+    end: "50% 50%",
     scrub: true,
     // markers: true,
 }})
