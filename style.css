@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none; 
 }
 
 html,body{
     height: 100%;
     width: 100%;
     color: white;
+
 }
 
 .container{
@@ -208,6 +214,7 @@ html,body{
     top: -22%;
     width: 25vw;
     transition: all 1s cubic-bezier(0.17, 1, 0.22, 1);
+    
 }
 
 #lemon2{
